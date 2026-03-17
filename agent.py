@@ -38,7 +38,7 @@ def load_env(path=".env"):
 
 load_env()
 
-API_URL = os.getenv("API_URL", "http://10.0.1.5:8001")
+API_URL = os.getenv("API_URL", "https://algotrading.sanyamchhabra.in/api")
 API_KEY = os.getenv("TEAM_API_KEY", "")
 HEADERS = {"X-API-Key": API_KEY}
 
@@ -353,13 +353,19 @@ def main():
             tick += 1
 
         except KeyboardInterrupt:
-            print("\n  Agent stopped by user (Ctrl+C). Exiting cleanly.")
+            print("\n  Agent stopped by user. Exiting.........")
+            print("\n  Happyy tradinggg :).........")
             break
         except Exception as e:
             print(f"T{tick:>4d} | ERROR: {type(e).__name__}: {e}")
             tick += 1
 
-        time.sleep(TICK_INTERVAL)
+        try:
+            time.sleep(TICK_INTERVAL)
+        except KeyboardInterrupt:
+            print("\n  Agent stopped by user. Exiting.........")
+            print("\n  Happyy tradinggg :).........")
+            break
 
 
 if __name__ == "__main__":
