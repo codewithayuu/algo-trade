@@ -38,7 +38,7 @@ def load_env(path=".env"):
 
 load_env()
 
-API_URL = os.getenv("API_URL", "https://algotrading.sanyamchhabra.in/api")
+API_URL = os.getenv("API_URL", "http://10.0.1.5:8001")
 API_KEY = os.getenv("TEAM_API_KEY", "")
 HEADERS = {"X-API-Key": API_KEY}
 
