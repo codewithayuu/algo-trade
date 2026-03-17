@@ -39,7 +39,7 @@ This guide will help you run our algorithmic trading agent. Just follow these st
    ```
 3. Clone the repository:
    ```
-   git clone [GITHUB_URL_YOUR_TEAMMATE_GIVES_YOU]
+   git clone https://github.com/codewithayuu/algo-trade
    ```
 4. Navigate into the project folder:
    ```
