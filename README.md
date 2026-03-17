@@ -43,7 +43,7 @@ This guide will help you run our algorithmic trading agent. Just follow these st
    ```
 4. Navigate into the project folder:
    ```
-   cd AlgoTrade
+   cd algo-trade
    ```
 
 ---
