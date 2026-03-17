@@ -51,7 +51,7 @@ This guide will help you run our algorithmic trading agent. Just follow these st
 ## 🔑 Step 3: Set Up API Configuration
 
 ### Create the Environment File:
-1. In the AlgoTrade folder, create a new file named `.env` (yes, with the dot at the start)
+1. In the algo-trade folder, create a new file named `.env` (yes, with the dot at the start)
 2. Open this file with Notepad or any text editor
 3. Add these two lines (your teammate will give you the actual values):
 
@@ -69,9 +69,9 @@ TEAM_API_KEY=(will be given by team leader)
 
 ### Method A: Using requirements.txt (Recommended)
 1. Open Command Prompt/Terminal
-2. Navigate to the AlgoTrade folder:
+2. Navigate to the algo-trade folder:
    ```
-   cd Desktop/AlgoTrade
+   cd Desktop/algo-trade
    ```
 3. Install all required packages:
    ```
@@ -90,7 +90,7 @@ TEAM_API_KEY=(will be given by team leader)
 ## 🏃 Step 5: Run the Trading Agent
 
 ### Start the Agent:
-1. Make sure you're in the AlgoTrade folder in Command Prompt/Terminal
+1. Make sure you're in the algo-trade folder in Command Prompt/Terminal
 2. Run the agent:
    ```
    python agent.py
