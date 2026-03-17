@@ -198,4 +198,4 @@ TEAM_API_KEY=(will be given by team leader)
 
 Once you complete these steps, the trading agent will run automatically and handle everything for you. Just let it do its job and good luck in the competition!
 
-**Remember**: Our strategy is mathematically proven to be optimal. Trust the system and let it run! 🚀
+**Remember**: Trust the system and let it run! 🚀
